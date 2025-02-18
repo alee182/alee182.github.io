@@ -1,3 +1,7 @@
 .disc-bullets {
     list-style-type: disc;
   }
+
+body {
+  background-color: blue;
+}
