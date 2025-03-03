@@ -1,6 +1,12 @@
 body {
-    background-color: #EBD58D;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('https://alee182.github.io/itis3135/images/img_188.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
 }
 
 h1 {
