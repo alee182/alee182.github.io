@@ -3,41 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Austin Lee ITIS3135</title>
+    <title>Austin Lee Homepage</title>
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
     <style>
-        h1, h2 {
-            text-align: center;
-            background-color: #6BB77B;
-        }
+        h1 {
+  width: fit-content; /* Makes h1 only as wide as its content */
+  background-color: rgba(244, 162, 97, 0.7);
+  height: 20vh; /* Takes up 30% of viewport height */
+  display: flex; 
+  align-items: center; /* Keeps text vertically centered */
+  padding: 0 2vw; /* Adds slight padding for spacing */
+  font-size: 8vh; /* Responsive text size */
+  margin: 0; /* Removes any default centering margins */
+  margin-top: 10vh;
+}
+
+
         body {
-            background-color: #172D13;
+            background-image: url('itis3135/images/IMG_0145.jpg');;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #FFFFFF;
+            background-size: cover; 
+        background-position: center; 
+        background-attachment: fixed; 
+        margin: 0 auto;
+        width: 95%;
+
         }
         
         a {
             color: #FFFFFF
         }
 
+        nav {
+  display: flex;
+  justify-content: space-between; 
+  background-color: rgba(244, 162, 97, 0.7);
+}
+
+
+nav a {
+  text-decoration: none; 
+  padding: 10px 20px; 
+  margin-right: 20px; 
+}
+
+/* Optional: Remove margin from the last anchor tag */
+nav a:last-child {
+  margin-right: 0;
+}
+
+.content {
+  flex: 1; /* Pushes footer to the bottom */
+}
+
+footer {
+  
+ 
+  padding-top: 80%;
+}
+
+nav a:hover {
+  color: black; /* Changes text color to black on hover */
+}
     </style>
 </head>
 <body>
     <header>
-    <h1>Austin Lee ITIS3135</h1>
+    <h1>Austin Lee's  Homepage</h1>
     </header>
     <main>
-        <h2>Personal Homepage</h2>
-        <p><p>Sit back and stay a while</p></p>
-        <nav>
-            <div class="colorclass"><ul>
-                <li><a href="itis3135/">itis3135 page</a></li> 
-                <li><a href="https://www.linkedin.com/in/austinlee524/">Linkedin</a></li> 
-                <li><a href="https://github.com/alee182">My Github.io</a></li> 
-            </ul></div>
-        </nav>
+        
+        
+        
     </main>
     <footer>
+        <nav>           
+            <a href="itis3135/">itis3135 page</a>
+            <a href="https://www.linkedin.com/in/austinlee524/">Linkedin</a></li> 
+            <a href="https://github.com/alee182">My Github</a></li> 
+           
+        </nav>
         <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
             <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
            </a>
