@@ -17,7 +17,10 @@
   margin: 0; /* Removes any default centering margins */
   margin-top: 10vh;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
         body {
             background-image: url('itis3135/images/IMG_0145.jpg');;
@@ -28,7 +31,8 @@
         background-attachment: fixed; 
         margin: 0 auto;
         width: 95%;
-
+        display: flex;
+  flex-direction: column;
         }
         
         a {
@@ -57,10 +61,15 @@ nav a:last-child {
   flex: 1; /* Pushes footer to the bottom */
 }
 
+main {
+  flex: 1;
+}
+
 footer {
-  
- 
-  padding-top: 80%;
+    /* Adjust the background color */
+  color: white;  /* Adjust text color */
+  text-align: center;  /* Center align the footer text */
+  padding: 10px 0;
 }
 
 nav a:hover {
@@ -79,9 +88,9 @@ nav a:hover {
     </main>
     <footer>
         <nav>           
-            <a href="itis3135/">itis3135 page</a>
-            <a href="https://www.linkedin.com/in/austinlee524/">Linkedin</a></li> 
-            <a href="https://github.com/alee182">My Github</a></li> 
+            <a href="itis3135/"><strong>ITIS3135 page</strong></a>
+            <a href="https://www.linkedin.com/in/austinlee524/"><strong>Linkedin</strong></a>
+            <a href="https://github.com/alee182"><strong>My Github</strong></a>
            
         </nav>
         <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
