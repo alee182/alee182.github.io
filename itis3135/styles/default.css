@@ -1,7 +1,7 @@
 body {
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('images/img_188.jpg');
+    background-image: url('https://alee182.github.io/itis3135/images/img_188.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -33,7 +33,7 @@ nav a:hover {
     color: black; 
   }
 nav {
-    background-color: rgba(211, 211, 211, 0.7);
+    background-color: rgba(211, 211, 211, 0.3);
     color: #000000;
     
 }
