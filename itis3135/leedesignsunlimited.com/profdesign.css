@@ -1,7 +1,55 @@
-.disc-bullets {
-    list-style-type: disc;
-  }
+
 
 body {
-  background-color: #068473;
+  margin: 0 auto;
+  width: 95%;
+  background-color: navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+}
+
+
+
+img {
+  max-width: 150px; 
+  height: auto; 
+}
+
+header {
+  background-color: lightblue;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius: 7px;
+  
+}
+
+main {
+  background-color:white;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.contact-info {
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 7px;
+}
+
+h1, h2, h3 {
+  color: navy;
+}
+
+footer {
+  color: lightblue;
+  text-align: center
+}
+
+ul {
+  list-style-type: disc !important;
 }

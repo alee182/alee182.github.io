@@ -9,17 +9,7 @@
     <link rel="stylesheet" href="styles/default.css">
 </head>
 <body>
-    <header>
-        <h1>Austin Lee's Amicable LLama || ITIS 3135</h1>
-        <nav id="head">
-            
-                <a href="./">Home</a>
-                <a href="introduction.html">Introduction</a>
-                <a href="contract.html">Contract</a>
-            
-
-        </nav>
-    </header>  
+    <div data-include="components/header.html"></div>
     <main>
         <h2>ITIS 3135 Home</h2>
         <p>This is all the content for my 3135 class</p>
@@ -34,7 +24,9 @@
         <a href="https://www.freecodecamp.org/alee171">FreeCodeCamp</a> ||
         <a href="https://www.codecademy.com/profiles/alee171">CodeAcademy</a> ||
         <a href="https://www.linkedin.com/in/austinlee524/">LinkedIn</a> ||
-        <p>Page Built By: Austin Lee Designs.co</p>
+        <div class="design">
+        <p>Page Built By: <a href="leedesignsunlimited.com/index.html">LeeDesignsUnlimited</a> © 2025 Certified in <a href="https://www.freecodecamp.org/certification/alee171/responsive-web-design" target="_blank">Responsive Web Design<a></p>
+        </nav></footer>div>
         </nav>
         
            
@@ -43,6 +35,8 @@
                    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
            </script>
            
+           
     </footer>
+    <script src="scripts/HTMLInclude.min.js"></script>
 </body>
 </html>
