@@ -61,9 +61,7 @@ nav a:last-child {
   flex: 1; /* Pushes footer to the bottom */
 }
 
-main {
-  flex: 1;
-}
+
 
 footer {
     /* Adjust the background color */
@@ -71,9 +69,28 @@ footer {
   text-align: center;  /* Center align the footer text */
   padding: 10px 0;
 }
+main {
+  width: 75%; 
+  
+  padding: 20px;
+  
+  flex: 1
+}
 
+h2 {
+  font-size: 180%;
+  margin-bottom: -5px;
+}
 nav a:hover {
-  color: black; /* Changes text color to black on hover */
+  color: black; 
+}
+.container {
+  background-color: rgba(244, 162, 97, 0.7);
+  font-size: 120%;
+  padding: 0 2vw; /* Adds slight padding for spacing */
+  margin-left: -2vh;
+  margin-top: 80px
+  
 }
     </style>
 </head>
@@ -82,7 +99,13 @@ nav a:hover {
     <h1>Austin Lee's  Homepage</h1>
     </header>
     <main>
-        
+      <div class="container"> 
+        <h2>About Me</h2>
+        <p> Hi My Name is Austin Lee I am a junior at the University of North Carolina at Charlotte. I am majoring in Computer Science with
+          a concentration in software engineering. As of  now I am working on a few personal projects as well as
+          research on Large Language's ability to accurately assess code vulnerabilities and implement correct patches. Check them out in my Github below!
+        </p>
+        </div>
         
         
     </main>
@@ -93,13 +116,7 @@ nav a:hover {
             <a href="https://github.com/alee182"><strong>My Github</strong></a>
            
         </nav>
-        <a href="https://validator.w3.org/check?uri=referer" id="validation_link_html">
-            <img style="border:0;width:88px;height:31px" src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
-           </a>
-           <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation_link_css">
-            <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
-             </a>
-           
+        
            <script>
               document.getElementById("validation_link_html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
                    document.getElementById("validation_link_css").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
