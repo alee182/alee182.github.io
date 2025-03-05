@@ -1,5 +1,5 @@
-body {
-    background-color: aqua;
+body{
+    background-color: white;
 }
 ul {
     text-align: center;
@@ -7,6 +7,25 @@ ul {
 }
 
 #big-paragraph {
-    font-size: larger;
-    
+    font-size: 37;
+    font-family: 'Papyrus', fantasy;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    text-align: right;
+    margin-bottom: 120px;
+}
+
+p {
+    font-family: 'Times New Roman';
+    padding-left: 10%;
+    margin-top: 11%;
 }
