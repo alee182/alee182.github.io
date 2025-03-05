@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+ul {
+    text-align: center;
+    background-color: lightsalmon;
+}
+
+#big-paragraph {
+    font-size: larger;
+    
+}
