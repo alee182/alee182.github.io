@@ -1,0 +1,32 @@
+
+section.active {
+    display: block;
+  }
+  
+
+  nav {
+    background-color: #333;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 5px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
