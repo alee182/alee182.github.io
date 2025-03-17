@@ -2,6 +2,8 @@ body {
     margin: 0 auto;
     width: 95%;
     font-family: Calibri;
+    color: #FFA07A;
+    background-color: FFFDD0;
 }
 section {
     display: none;
@@ -37,6 +39,7 @@ section {
   
   nav ul li a:hover {
     text-decoration: underline;
+    color: #FFA07A;
   }
 
 #home-pic {
