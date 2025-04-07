@@ -2,7 +2,9 @@
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-image: url('https://alee182.github.io/itis3135/backpackingbuddiescharlotte/images/background.JPG'); 
+      background-image: url('https://alee182.github.io/itis3135/backpackingbuddiescharlotte/images/background2.JPG'); 
+      background-size: 150%;
+      background-repeat: no-repeat;
     }
     nav {
       background-color: #2e7d32; 
