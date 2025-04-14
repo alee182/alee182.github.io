@@ -73,7 +73,8 @@ nav a:last-child {
   
   /* Hide the images by default */
   .mySlides {
-    display: none;
+    text-align: center;
+    display: inline-block;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
