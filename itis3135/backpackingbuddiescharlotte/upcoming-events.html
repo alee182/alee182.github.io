@@ -5,44 +5,12 @@
     <title>Upcoming Events</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="backpackstyles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .event {
-            background-color: #fff;
-            border: 1px solid #ddd;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-        }
-        .event h2 {
-            margin-top: 0;
-            color: #555;
-        }
-        .event p {
-            margin: 5px 0;
-            color: #666;
-        }
-        .event .date, .event .location {
-            font-weight: bold;
-        }
-    </style>
+   
 </head>
 <body>
-    <nav>
-        <a href="about.html">About Us</a>
-        <a href="upcoming-events.html">Upcoming Events</a>
-        <a href="photo-gallery.html">Photo Gallery</a>
-        <a href="gearspreadsheet.html">Gear Spreadsheet</a>
-      </nav>
-    <h1>Upcoming Events</h1>
+    <div data-include="components/header.html"></div>
+    <main>
+        <h1>Upcoming Events</h1>
 
     <div class="event">
         <h2>Hanging Rock Hike</h2>
@@ -64,6 +32,8 @@
         <p class="location">Location:Shenandoah National Park</p>
         <p class="description">Explore the heart of Shenandoah on a four-day, three-night backpacking adventure along a stunning stretch of the Appalachian Trail. We'll cover about 30 miles total, with campsites near scenic overlooks, waterfalls, and peaceful woodlands. This trip is best suited for hikers with some multi-day backpacking experience. Get ready for unforgettable views, starry nights, and great company!</p>
     </div>
+    </main>
+    <div data-include="components/footer.html"></div>
 
 </body>
 </html>

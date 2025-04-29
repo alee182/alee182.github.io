@@ -5,49 +5,13 @@
     <title>Gear Checklist - Charlotte Backpacking Club</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="backpackstyles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f0f8f5;
-        }
-        h1 {
-            text-align: center;
-            color: #2e4d3f;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 30px;
-        }
-        th, td {
-            padding: 12px;
-            border: 1px solid #ccc;
-            text-align: left;
-            background-color: #ffffff;
-        }
-        th {
-            background-color: #d8ede2;
-            color: #2e4d3f;
-        }
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-        .container {
-            max-width: 1000px;
-            margin: auto;
-        }
-    </style>
+    
 </head>
 <body>
 
-    <div class="container">
-        <nav>
-            <a href="about.html">About Us</a>
-            <a href="upcoming-events.html">Upcoming Events</a>
-            <a href="photo-gallery.html">Photo Gallery</a>
-            <a href="gearspreadsheet.html">Gear Spreadsheet</a>
-          </nav>
+    
+    <div data-include="components/header.html"></div>
+        <div class="container">
         <h1>Backpacking Gear Checklist</h1>
         <!--this is just a placeholder spreadsheet there will be an interactive one added with JS-->
         <table>
@@ -135,6 +99,6 @@
             </tbody>
         </table>
     </div>
-
+    <div data-include="components/footer.html"></div>
 </body>
 </html>
