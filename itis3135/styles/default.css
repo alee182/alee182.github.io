@@ -61,3 +61,40 @@ nav a:last-child {
     padding: 10px;
   }
 
+  @media screen and ( min-width: 769px ) and ( max-width: 1199px) {
+    main {
+      width: 60%;
+      
+    }
+  }
+
+  @media ( max-width: 768px) {
+    main {
+      width: 30%;
+      margin: 0 auto;
+      
+    }
+  }
+
+/* for tablets*/
+@media screen and ( min-width: 601px ) and ( max-width: 980px) {
+  main {
+    width: 50%;
+    
+  }
+}
+/* for small screen laptop */
+@media screen and ( min-width: 981px ) and ( max-width: 1400px) {
+  main {
+    width: 60%;
+    
+  }
+}
+
+/* for mobile devices */
+@media screen and ( min-width: 370px ) and ( max-width: 600px) {
+  main {
+    width: 30%;
+    
+  }
+}
