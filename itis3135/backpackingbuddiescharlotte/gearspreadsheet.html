@@ -5,7 +5,20 @@
     <title>Gear Checklist - Charlotte Backpacking Club</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="backpackstyles.css">
-    
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    #gearTable {
+      margin-top: 20px;
+      width: 100%;
+    }
+    input[type="number"] {
+      width: 80px;
+    }
+  </style>
 </head>
 <body>
 
@@ -99,8 +112,46 @@
             </tbody>
         </table>
     </div>
+
+
+    <form id="gearForm">
+        <label>
+          Gear Name:
+          <input type="text" id="gearName" required>
+        </label>
+        <label>
+          Pounds:
+          <input type="number" id="gearLbs" required min="0" step="1">
+        </label>
+        <label>
+          Ounces:
+          <input type="number" id="gearOz" required min="0" max="15" step="1">
+        </label>
+        <button type="submit">Add Gear</button>
+      </form>
+      
+      <table id="gearTable">
+        <thead>
+          <tr>
+            <th>Gear</th>
+            <th>Weight</th>
+          </tr>
+        </thead>
+        <tbody id="gearBody">
+          <!-- Items go here -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th id="totalWeight">0 lbs 0 oz</th>
+          </tr>
+        </tfoot>
+      </table>
+      
+      
     <div data-include="components/footer.html"></div>
 
     <script src="/itis3135/scripts/HTMLInclude.min.js"></script>
+    <script src="/itis3135/backpackingbuddiescharlotte/scripts/spreadsheet.js"></script>
 </body>
 </html>
