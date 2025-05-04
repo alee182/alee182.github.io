@@ -6,11 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="backpackstyles.css">
   <style>
-    table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-      padding: 8px;
-    }
+
     #gearTable {
       margin-top: 20px;
       width: 100%;
@@ -108,23 +104,25 @@
                     <td>Waterproof and breathable preferred</td>
                     <td><input type="checkbox"></td>
                 </tr>
-                <!-- Add more items here -->
+                
             </tbody>
         </table>
-    </div>
+    
+        
 
-
+    <div class="gearForm">
     <form id="gearForm">
         <label>
-          Gear Name:
+            <h2>Gear Weight Calculator</h2>
+          <strong>Gear Name:</strong>
           <input type="text" id="gearName" required>
         </label>
         <label>
-          Pounds:
+          <strong>Pounds:</strong>
           <input type="number" id="gearLbs" required min="0" step="1">
         </label>
         <label>
-          Ounces:
+          <strong>Ounces:</strong>
           <input type="number" id="gearOz" required min="0" max="15" step="1">
         </label>
         <button type="submit">Add Gear</button>
@@ -147,7 +145,8 @@
           </tr>
         </tfoot>
       </table>
-      
+      </div>
+      </div>
       
     <div data-include="components/footer.html"></div>
 
