@@ -19,8 +19,7 @@ html, body {
       display: flex;
       justify-content: center;
       width: 100%;
-      margin: 0;
-    padding: 0;
+      
     overflow-x: hidden;
     }
     nav a {
@@ -84,6 +83,7 @@ html, body {
 h1 {
   text-align: left;
   color: #1b5e20;
+  margin-left: 40px;
 }
 
 table {
@@ -111,7 +111,7 @@ tr:hover {
 
 .container2 {
   max-width: 900px;
-  margin: 40px auto auto auto; /* 40px top, auto sides to center it, 0 bottom */
+  margin: 40px auto 40px auto; 
   background-color: #ffffff;
   padding: 40px;
   border-radius: 12px;
@@ -120,7 +120,7 @@ tr:hover {
 }
 
 .site-footer {
-  background-color: #1b5e20; /* Slightly darker green for footer */
+  background-color: #1b5e20;
   color: #e8f5e9; /* Very light green/white */
   text-align: center;
   padding: 0.5rem 0.5rem;
@@ -128,8 +128,6 @@ tr:hover {
   font-family: 'Montserrat', sans-serif; 
   font-size: 0.9rem; /* slightly smaller than nav */
   border-top: 2px solid #4caf50; 
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
 }
 
