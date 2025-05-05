@@ -1,6 +1,4 @@
-* {
-  outline: 1px solid red;
-}
+
 
 html, body {
    margin: 0; padding: 0; width: 100%; 
@@ -21,6 +19,9 @@ html, body {
       display: flex;
       justify-content: center;
       width: 100%;
+      margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     }
     nav a {
       color: #ffffff;
@@ -127,6 +128,9 @@ tr:hover {
   font-family: 'Montserrat', sans-serif; 
   font-size: 0.9rem; /* slightly smaller than nav */
   border-top: 2px solid #4caf50; 
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .site-footer a {
