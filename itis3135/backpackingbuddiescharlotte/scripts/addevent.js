@@ -24,7 +24,7 @@ const defaultEvents = [
 
     try {
       events = JSON.parse(localStorage.getItem("events"));
-      if (!Array.isArray(events)) throw new Error(); // Fallback if corrupted
+      if (!Array.isArray(events)) throw new Error(); 
     } catch {
       events = null;
     }
