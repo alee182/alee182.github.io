@@ -178,6 +178,8 @@ input[type="number"] {
 }
 
 #countdown {
-  color: #2e4d3f; 
+  color: white; 
+  text-align: center;
+  background-color: #1b5e20;
 }
 
