@@ -119,7 +119,7 @@ tr:hover {
   background-color: #1b5e20; /* Slightly darker green for footer */
   color: #e8f5e9; /* Very light green/white */
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 0.5rem;
   width: 100%;
   font-family: 'Montserrat', sans-serif; /* matches site */
   font-size: 0.9rem; /* slightly smaller than nav */
